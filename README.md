@@ -76,7 +76,7 @@ You can easily install different Ruby verions with `rvm instal <version number>`
 If your familiar with any other program language, [Ruby gems](https://en.wikipedia.org/wiki/RubyGems) are like libraries. If you're not familiar with programing libraries, it's basically isolated chunks of code that you can easily add to your project. For example, the `learn-co` gem allows you to easily interface with Learn from your command line (opening and submitting labs among many other things).
 
 To set up your gems and install some necessary ones, run the following commands:
-
+ -  sudo apt-get ruby-dev
  - `echo "gem: --no-ri --no-rdoc" > $HOME/.gemrc`
  - `gem update --system 2.4.8`
  - `gem install learn-co`
